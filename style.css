@@ -1,7 +1,9 @@
 body {
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
 
+/* setion one start */
 h1 {
     font-weight: 700;
     font-size: 70px;
@@ -9,14 +11,18 @@ h1 {
     line-height: 80px;
 }
 
-.top-banner {
+.container {
     display: flex;
     width: 1320px;
-    height: 645px;
-    background-color: #161616;
     margin: 50px auto;
+}
+
+.top-banner {
+    display: flex;
+    background-color: #161616;
     border-radius: 30px;
     color: white;
+    height: 645px;
 }
 
 .top-title {
@@ -36,7 +42,7 @@ h1 {
     padding-top: 30px;
     padding-right: 80px;
     margin-bottom: 0px;
-
+    padding-bottom: 0px;
 }
 
 .heading-paragraph {
@@ -54,4 +60,114 @@ h1 {
     color: white;
     font-weight: 400px;
     font-size: 20px;
+}
+
+/* section one end */
+/* section two strat */
+.sidebar {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 20px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.sidebars {
+    display: grid;
+    grid-template-rows: auto;
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#blog {
+    background-color: #DD0000;
+    color: white;
+}
+
+.blogs-box {
+    width: 100%;
+    height: 1135px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    row-gap: 25px;
+    margin-bottom: 100px;
+}
+
+.blog {
+    width: 312px;
+    height: 360px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.transfer {
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    border-color: #161616;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.blog-bottom {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.icons {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat {
+    padding-left: 30px;
+}
+
+footer {
+    background-color: #161616;
+    height: 445px;
+    color: white;
+    margin: 0;
+}
+
+.goal {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.contacts {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-options {
+    padding: 35px;
+}
+
+.social-media {
+    margin-top: 25px;
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    padding: 25px;
 }
